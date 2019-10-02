@@ -16,6 +16,7 @@ const Tuner = function() {
     'A♯',
     'B'
   ]
+  this.counter = 0
 
   this.initGetUserMedia()
 }
