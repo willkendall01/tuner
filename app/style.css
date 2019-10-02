@@ -16,8 +16,9 @@ body {
 
 .counter {
   width: 400px;
-  position: absolute;
+  position: fixed;
   text-align: center;
+  height: 400px;
 }
 
 .notes {
