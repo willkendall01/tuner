@@ -16,7 +16,9 @@ Application.prototype.start = function() {
       } else {
         self.lastNote = note.name
         self.tuner.counter++;
+
         document.getElementById('counter').innerHTML = self.tuner.getStandardFrequency(self.lastNote)
+
       }
     }
   }
