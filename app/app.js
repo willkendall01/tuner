@@ -16,7 +16,7 @@ Application.prototype.start = function() {
       } else {
         self.lastNote = note.name
         self.tuner.counter++;
-        document.write("<div class='counter'>" + self.tuner.getNote(440) + "</div>")
+        document.write("<div class='counter'>" + self.tuner.getNote(note) + "</div>")
       }
     }
   }
