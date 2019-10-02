@@ -15,10 +15,10 @@ body {
 }
 
 .counter {
-  width: 400px;
+  width: 30px;
   position: fixed;
   text-align: center;
-  height: 400px;
+  height: 20px;
 }
 
 .notes {
