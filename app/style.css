@@ -14,6 +14,12 @@ body {
   -moz-user-select: none;
 }
 
+.counter {
+  width: 400px;
+  position: absolute;
+  text-align: center;
+}
+
 .notes {
   margin: auto;
   width: 400px;
