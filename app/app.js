@@ -15,6 +15,8 @@ Application.prototype.start = function() {
         self.update(note)
       } else {
         self.lastNote = note.name
+        self.tuner.counter++;
+        document.write("<div class='counter'>" + self.tuner.getStandardFrequency(self.lastNote) + "</div>")
       }
     }
   }
